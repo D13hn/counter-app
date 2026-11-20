@@ -5,7 +5,7 @@ A clean and interactive **Counter Application** built from scratch as my first h
 ![Counter App Preview](./preview.png)
 
 <p align="center">
-  <a href="https://d13hn.github.io/YOUR-REPO-NAME/" target="_blank">
+  <a href="https://d13hn.github.io/-counter-app/" target="_blank">
     <img src="https://img.shields.io/badge/Live%20Demo-View%20Project-674ff8?style=for-the-badge&logo=github" alt="Live Demo" />
   </a>
 </p>
