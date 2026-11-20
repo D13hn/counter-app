@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Big+Shoulders:opsz,wght@10..72,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+    background-color: #674ff8;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 17rem;
+    border-radius: 12px;
+    height: 13rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .title h1 {
+    font-size: 27px;
+    margin-bottom: 1.5rem;
+}
+
+.box .count{
+    margin-bottom: 1rem;
+}
+
+.box .count span {
+    color: #8f73de;
+    font-size: 3rem;
+}
+
+h4 {
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+button {
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn #plus {
+    background-color: #00c35b;
+}
+
+.btn #plus:hover {
+    background-color: #00893e;
+    transition: .1s;
+}
+
+.btn #minus {
+    background-color: #f0000b;
+}
+
+.btn #minus:hover {
+    background-color: #ad0005;
+    transition: .1s;
+}
+
+.btn #reset {
+    background-color: #8f73de;
+}
+
+.btn #reset:hover {
+    background-color: #674dae;
+    transition: .1s;
+}
